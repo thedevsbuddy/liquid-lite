@@ -49,7 +49,7 @@ class CrudController extends Controller
             ],
             'menu' => [
                 'label' => ucfirst($this->modelEntities),
-                'url' => 'admin.' . $this->modelEntities . 'index'
+                'url' => 'adminr.' . $this->modelEntities . 'index'
             ],
 
         ]);
