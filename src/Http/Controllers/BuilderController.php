@@ -88,7 +88,7 @@ class BuilderController extends Controller
                 ],
                 'menu' => [
                     'label' => Str::studly($this->buildControllersService->modelEntities),
-                    'route' => 'admin.' . $this->buildControllersService->modelEntities . '.index'
+                    'route' => 'adminr.' . $this->buildControllersService->modelEntities . '.index'
                 ],
                 'table' => $this->buildControllersService->tableName,
                 'payload' => [
