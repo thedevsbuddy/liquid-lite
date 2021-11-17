@@ -1,0 +1,58 @@
+{
+    "name": "thedevsbuddy/liquid-lite",
+    "description": "An helper package for our product called AdminR",
+    "version": "0.1",
+    "keywords": [
+        "thedevsbuddy",
+        "liquid-lite"
+    ],
+    "homepage": "https://github.com/thedevsbuddy/liquid-lite",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Shoaib Khan",
+            "email": "shoaib@devsbuddy.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Http/helpers.php"
+        ],
+        "psr-4": {
+            "Devsbuddy\\LiquidLite\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Devsbuddy\\LiquidLite\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devsbuddy\\LiquidLite\\Providers\\LiquidLiteServiceProvider"
+            ],
+            "aliases": {
+                "LiquidLite": "Devsbuddy\\LiquidLite\\Facades\\LiquidLiteFacade"
+            }
+        }
+    }
+}

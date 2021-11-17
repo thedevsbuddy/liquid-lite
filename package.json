@@ -1,0 +1,36 @@
+{
+  "name": "liquid",
+  "version": "0.1.0",
+  "description": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/thedevsbuddy/laravelcms.svg?style=flat-square)](https://packagist.org/packages/thedevsbuddy/laravelcms) [![Total Downloads](https://img.shields.io/packagist/dt/thedevsbuddy/laravelcms.svg?style=flat-square)](https://packagist.org/packages/thedevsbuddy/laravelcms) ![GitHub Actions](https://github.com/thedevsbuddy/laravelcms/actions/workflows/main.yml/badge.svg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedevsbuddy/laravelcms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedevsbuddy/laravelcms/issues"
+  },
+  "homepage": "https://github.com/thedevsbuddy/laravelcms#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.28",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "dependencies": {
+    "@coreui/coreui": "^3.4.0",
+    "axios": "^0.21.3"
+  }
+}
