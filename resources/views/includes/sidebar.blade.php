@@ -55,7 +55,7 @@
         <li class="c-sidebar-nav-title">Permissible</li>
         @can('manage_permissions')
             <li class="c-sidebar-nav-item">
-                <a class="c-sidebar-nav-link" href="index.html">
+                <a class="c-sidebar-nav-link" href="javascript:void(0)" onclick="alert('Coming soon!')">
                     <svg class="c-sidebar-nav-icon">
                         <use xlink:href="{{ coreUiIcon('cil-star') }}"></use>
                     </svg>
