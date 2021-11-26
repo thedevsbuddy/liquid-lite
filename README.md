@@ -27,3 +27,9 @@ php artisan vendor:publish --provider="Devsbuddy\LiquidLite\Providers\LiquidLite
 php artisan vendor:publish --provider="Devsbuddy\LiquidLite\Providers\LiquidLiteServiceProvider" --tag=laravel-config
 ```
 
+### Publish Views
+If you want to change or add something in the core Template then you can publish core template / views.
+```bash
+php artisan vendor:publish --provider="Devsbuddy\LiquidLite\Providers\LiquidLiteServiceProvider" --tag=laravel-views
+```
+

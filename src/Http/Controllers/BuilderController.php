@@ -39,7 +39,6 @@ class BuilderController extends Controller
         $this->buildViewsService = new BuildViewsService();
     }
 
-
     public function index()
     {
         try{
