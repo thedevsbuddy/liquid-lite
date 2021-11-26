@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Models\{{MODEL_CLASS}};
 use Illuminate\Http\Request;
 use Devsbuddy\LiquidLite\Http\Controllers\LiquidLiteController;
+use Illuminate\Support\Str;
 
 
 class {{CONTROLLER_CLASS}} extends LiquidLiteController

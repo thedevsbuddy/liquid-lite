@@ -6,6 +6,7 @@ use App\Models\{{MODEL_CLASS}};
 use Illuminate\Http\Request;
 use Devsbuddy\LiquidLite\Http\Controllers\LiquidLiteController;
 use Devsbuddy\LiquidLite\Traits\HasResponse;
+use Illuminate\Support\Str;
 
 class {{CONTROLLER_CLASS}} extends LiquidLiteController
 {
